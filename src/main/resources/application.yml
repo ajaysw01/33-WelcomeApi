@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: 33-Welcome
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+    
+server:
+  port: 8082
+ 
+ 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+        
+        
